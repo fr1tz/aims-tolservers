@@ -1,0 +1,44 @@
+/* This file is released under CC0 */
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,700,700italic,400italic|Orbitron);
+
+html,
+body
+{
+    background: Grey;
+    color: Black;
+    font-family: "Exo 2", Arial, Sans-serif;
+}
+
+input
+{
+    border: 1px solid black;
+}
+
+table
+{
+    border-spacing: 10px;
+    text-align:center;
+}
+
+#content
+{
+
+}
+
+.window
+{
+    background: White;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.error
+{
+    color: red;
+}
+
+.footerlink
+{
+    text-decoration: none;
+}
