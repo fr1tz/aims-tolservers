@@ -1,3 +1,4 @@
+/* This file is released under CC0 */
 
 var addAlert = function() {
   var html = "";
