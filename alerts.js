@@ -64,12 +64,13 @@ var updateAlerts = function() {
 
 var playAlertSound = function() {
   var sound = $("#alertsound").val();
-  var s = soundManager.getSoundById(sound);
-  if(!s)
+  var audio = document.getElementById("sound_"+sound);
+  if(audio)
   {
-    log("Unable to play sound!");
-    return;
+    audio.pause();
+    audio.currentTime = 0;
+    audio.play();  
   }
   else
-    s.play();			  
+    log("Unable to play sound!");	  
 }
